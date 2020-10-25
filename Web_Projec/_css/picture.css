@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+ul#album-photos{
+	width: 700px;
+	margin: 0 auto;
+	padding: 50px;
+	overflow: hidden;
+	list-style: none;
+}
+ul#album-photos li{
+	float: left;
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	border: 5px solid #ffffff;
+	background-color: #ffffff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition: all .4s ease-in;
+}
+
+ul#album-photos li span{
+	opacity: 0;
+	color: #ffffff;
+	text-shadow: 1px 1px 1px #000000
+	background-color: rgba(0,0,0,.3);
+	font-size: 9pt; 
+	line-height: 370px;
+	padding: 5px;
+}
+
+ul#album-photos li:hover{
+	-webkit-transform: scale(1.5);
+}
+
+ul#album-photos li:hover span{
+	opacity: 1;
+}
+
+
+ul#album-photos li#photo01{
+	background: url('../_images/SeeTheFuture.png') no-repeat;
+	background-position: 50% 50%;
+	background-size: 556px 400px;
+	background-color: #ffffff;
+}
+ul#album-photos li#photo01:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-photos li#photo02{
+	background: url('../_images/Blue-Ray3D.png') no-repeat;
+	background-position: 50% 50%;
+	background-size: 440px 253px;
+	background-color: #ffffff;
+}
+ul#album-photos li#photo02:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+ul#album-photos li#photo03{
+	background: url('../_images/PSVR-Car.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 599px 400px;
+	background-color: #ffffff;
+}
+
+ul#album-photos li#photo03:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+ul#album-photos li#photo04{
+	background: url('../_images/PSvr-Move.png') no-repeat;
+	background-position: 50% 50%;
+	background-size: 711px 400px;
+	background-color: #ffffff;
+}
+ul#album-photos li#photo04:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-photos li#photo05{
+	background: url('../_images/PsVr-Pistol.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 711px 400px;
+	background-color: #ffffff;
+}
+ul#album-photos li#photo05:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+ul#album-photos li#photo06{
+	background: url('../_images/sony-vr.jpg') no-repeat;
+	background-position: 50% 50%;
+	background-size: 603px 400px;
+	background-color: #ffffff;
+}
+ul#album-photos li#photo06:hover{
+	background-position: 0px 0px;
+	background-size: 200px 200px;
+}
+
+
+
